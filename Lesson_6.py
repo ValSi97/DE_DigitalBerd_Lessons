@@ -23,14 +23,6 @@ class Human:
 
     def get_info(self):
         return self.__name, self.__hands, self.__age, self.__ears, self.__eyes, self.__sex, self.__speed
-        #print('\n')
-        #print(f'Name = {str(self.__name)}')
-        #print(f'Hands = {str(self.__hands)}')
-        #print(f'Age = {str(self.__age)}')
-        #print(f'Ears = {str(self.__ears)}')
-        #print(f'Eyes = {str(self.__eyes)}')
-        #print(f'Sex = {str(self.__sex)}')
-        #print(f'speed = {str(self.__speed)}')
 
 
 class Children(Human):
@@ -55,9 +47,6 @@ class Children(Human):
 
     def get_info(self):
         return super().get_info(), self.__school, self.__dad, self.__mom
-        #print(f'School = {str(self.__school)}')
-        #print(f'Dad = {str(self.__dad)}')
-        #print(f'Mom = {str(self.__mom)}')
 
     def get_coord_info(self):
         print('\n')
